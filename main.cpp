@@ -1,3 +1,4 @@
+
 double my_pow(double a, int b) {
 	double c = a;
 	if (b > 0)
@@ -10,4 +11,3 @@ double my_pow(double a, int b) {
 			a *= (1 / c);
 
 	return a;
-}
